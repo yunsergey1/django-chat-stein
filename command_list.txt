@@ -1,0 +1,37 @@
+
+python -V               *** Узнать версию 
+
+python3 -m venv venv    *** Установка виртуального окружения для данного проекта
+
+source venv/bin/activate   *** Запуск виртуального окружения
+
+deactivate
+
+pip install django channels
+
+django-admin startproject djangochat
+
+python manage.py startapp core
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+
+source /Users/Sergey-Yun/git/dj-lesson-1/venv/bin/activate
+
+pip list
+
+python -m pip install Pillow
+
+
+python manage.py sqlmigrate news 0001
+
+
+user:
+логин: user1 
+пароль: 12345user12345
+
+superuser:
+админ: admin
+пароль: admin
